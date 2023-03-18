@@ -11,7 +11,7 @@ app.get("/", function (req, res) {
 app.post("/", function (req, res) {
   var num1 = Number(req.body.num1);
   var num2 = Number(req.body.num2);
-  var calc = num1 + num2;
+  var calc = num2 + num2;
 
   res.send("the calculate ans is: " + calc);
 });
