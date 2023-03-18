@@ -1,2 +1,3 @@
-const index = 1;
+const index = 12;
+
 console.log(index);
